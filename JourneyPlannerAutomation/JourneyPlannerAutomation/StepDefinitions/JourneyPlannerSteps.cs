@@ -11,9 +11,9 @@ namespace JourneyPlannerAutomation.StepDefinitions
     public class JourneyPlannerSteps
     {
         
-        Context _context;
+        Initialiser _context;
         JourneyPlannerPage _journeyPlannerPage;
-        public JourneyPlannerSteps(Context context, JourneyPlannerPage journeyPlannerPage)
+        public JourneyPlannerSteps(Initialiser context, JourneyPlannerPage journeyPlannerPage)
         {
             _context = context;
             _journeyPlannerPage = journeyPlannerPage;           

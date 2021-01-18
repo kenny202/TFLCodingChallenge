@@ -6,13 +6,13 @@ using System;
 
 namespace JourneyPlannerAutomation.Setup
 {
-    public class Context
+    public class Initialiser
     {
         private IObjectContainer _objectContainer;
         private IWebDriver _driver;
         string baseUrl = "https://tfl.gov.uk/";
 
-        public Context(IObjectContainer objectContainer)
+        public Initialiser(IObjectContainer objectContainer)
         {
             _objectContainer = objectContainer;
             _driver = new ChromeDriver();

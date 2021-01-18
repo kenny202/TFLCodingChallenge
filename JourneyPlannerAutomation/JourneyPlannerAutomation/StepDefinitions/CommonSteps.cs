@@ -8,9 +8,9 @@ namespace JourneyPlannerAutomation.StepDefinitions
    public class CommonSteps
     {
 
-        Context _context;
+        Initialiser _context;
         CommonPage _commmonPage;
-        public CommonSteps(Context context, CommonPage commonPage)
+        public CommonSteps(Initialiser context, CommonPage commonPage)
         {
             _commmonPage = commonPage;
             _context = context;
